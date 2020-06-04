@@ -71,7 +71,7 @@
           <div v-for="(answer, index) in step3_1.answers" :key="index">
             <div class="answer" @click="setQuestionnaireStep(index)"><span class="index-bold">{{index+1}}.</span> {{answer}}</div>
           </div>
-        </div>  
+        </div>
       </div>
 
       <div v-if="questionnaireStep === 3.2">
@@ -94,7 +94,7 @@
         <div class="final-answer-container">
           <div>Congratulations!</div>
           <br>
-          <div><span class="description">{{"You succesfully completed the project. When the project is done, users are no longer a part of the design process. It is important that the internal team evaluates all methodologies which were used during the design process. It is recommended to list the pros, cons, the problems they faced, and most importantly, what could be improved. This will allow them to use participatory design methodologies in a better and more efficient way next time."}}</span></div>
+          <div><span class="description">{{"You succesfully completed the project. When the project is done, users are no longer a part of the design process. However, it is important that the internal team evaluates all methodologies which were used during the design process. It is recommended to list the pros, cons, the problems they faced, and most importantly, what could be improved. This will allow them to use participatory design methodologies in a better and more efficient way next time. User interviews can be conducted to help with the evaluation."}}</span></div>
         </div>
       </div>
     </div>
